@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <script src="javascript/main.js" defer></script>
+     <script src="javascript/global.js" defer></script>
+
+     <link rel="styleSheet" href="style.css">
+
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Risebit Home</title>
+</head>
+<body>
+     <div id="loadingScreen">
+          <div class="spinner"></div>
+          <p>Loading...</p>
+     </div>
+     
+     <nav class="navbar">
+          <img src="src/icon/RiseBit PFP.png" class="icon">
+          <h1 class="navItem" data-page="home.html">Home</h1>
+          <h1 class="navItem" data-page="projects.html">Projects</h1>
+          <h1 class="navItem" data-page="info.html">Info</h1>
+     </nav>
+     
+     <canvas id="backgroundCanvas"></canvas>
+
+     <div class="usernameContainer">
+          <h1 class="landingUsername">RiseBit</h1>
+     </div>
+
+     <input class="landingButton" type="button" value="Check My projects" onclick="goToProject()"></input>
+</body>
+</html>

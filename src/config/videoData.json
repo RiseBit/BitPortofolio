@@ -1,0 +1,72 @@
+{
+  "Roblox": {
+    "video1": {
+      "game": "Personal Projects",
+      "timeTaken": "1 Day",
+      "contributors": "Solo Project",
+      "gameLink": "",
+      "date": "2025 24 June",
+      "description": "DotProduct become rlly rlly handy in here and also thanks to Trigonometry"
+    },
+    "video2": {
+      "game": "Personal Projects",
+      "timeTaken": "1 Day",
+      "contributors": "Solo Project",
+      "gameLink": "",
+      "date": "2025 1 July",
+      "description": "Basic UI/UX Showcase, Definetly able to make something much better, Just need to wait for the chance of a Better UI"
+    },
+    "video3": {
+      "game": "Personal Projects",
+      "timeTaken": "2 Days",
+      "contributors": "Solo Project",
+      "gameLink": "",
+      "date": "2025 16 November",
+      "description": "It feels really hard to make this at the Time, but after learning more about it, its actually pretty similar With Directional Movement just abit more complicated."
+    },
+     "video4": {
+      "game": "Personal Projects",
+      "timeTaken": "1 Day",
+      "contributors": "RiseBit, gyTukk, Venomec",
+      "gameLink": "",
+      "date": "",
+      "description": "Pretty fun project we have."
+    },
+     "video5": {
+      "game": "Personal Projects",
+      "timeTaken": "1 Day",
+      "contributors": "Solo Project",
+      "gameLink": "",
+      "date": "",
+      "description": "Hybrid Client-prediction with a Client-Replication, This Project really teach me that most responsive game Actual Code-bases is all on client-side its never the Server-side."
+    },
+     "video6": {
+      "game": "Personal Projects",
+      "timeTaken": "2 Days",
+      "contributors": "Solo Project",
+      "gameLink": "",
+      "date": "2025 29 September",
+      "description": "Really Tough one."
+    }
+  },
+  "Web-Developer": {
+    "video1": {
+      "game": "AI Project",
+      "timeTaken": "1 week",
+      "contributors": "Solo Project",
+      "gameLink": "https://github.com/...",
+      "date": "August 2024",
+      "description": "AI project description..."
+    }
+  },
+  "Web3": {
+    "video1": {
+      "game": "Smart Contract Project",
+      "timeTaken": "2 weeks",
+      "contributors": "Solo Project",
+      "gameLink": "https://etherscan.io/address/...",
+      "date": "July 2024",
+      "description": "Web3 project description..."
+    }
+  }
+}

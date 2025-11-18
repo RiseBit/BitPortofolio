@@ -18,7 +18,7 @@ window.addEventListener("load", function() {
 });
 
 let navItems = document.querySelectorAll('.navItem');
-let currentPage = window.location.pathname.split('/').pop() || 'home.html';
+let currentPage = window.location.pathname.split('/').pop() || 'index.html';
 
 navItems.forEach(function(item) {
      item.addEventListener('click', function() {
@@ -65,4 +65,5 @@ function observeScrollAnimations() {
 
 window.addEventListener('load', () => {
     observeScrollAnimations();
+
 });

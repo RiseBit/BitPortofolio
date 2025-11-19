@@ -80,6 +80,21 @@ function updatePositions() {
      });
 }
 
+let touchStartY = 0;
+
+circle.addEventListener('touchstart', (e) => {
+     touchStartY = e.touches[0].clientY;
+});
+
+circle.addEventListener('touchmove', (e) => {
+     e.preventDefault();
+     const touchY = e.touches[0].clientY;
+     const deltaY = touchStartY - touchY;
+     currentRotation += deltaY * 0.2;
+     touchStartY = touchY;
+     updatePositions();
+}, { passive: false });
+
 circle.addEventListener('wheel', (e) => {
      e.preventDefault();
      currentRotation += e.deltaY * 0.2;

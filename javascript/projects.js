@@ -30,6 +30,9 @@ items.forEach((item) => {
                
                videos.forEach((video, index) => {
                     setTimeout(() => {
+                         if (video.dataset.src && !video.src) {
+                              video.src = video.dataset.src;
+                         }
                          video.classList.add('loaded');
                     }, index * 100);
                });
@@ -80,18 +83,18 @@ function updatePositions() {
      });
 }
 
-let touchStartY = 0;
+let touchStartX = 0;
 
 circle.addEventListener('touchstart', (e) => {
-     touchStartY = e.touches[0].clientY;
+     touchStartX = e.touches[0].clientX;
 });
 
 circle.addEventListener('touchmove', (e) => {
      e.preventDefault();
-     const touchY = e.touches[0].clientY;
-     const deltaY = touchStartY - touchY;
-     currentRotation += deltaY * 0.2;
-     touchStartY = touchY;
+     const touchX = e.touches[0].clientX;
+     const deltaX = touchStartX - touchX;
+     currentRotation += deltaX * 0.75;
+     touchStartX = touchX;
      updatePositions();
 }, { passive: false });
 
